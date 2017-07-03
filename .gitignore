@@ -1,0 +1,35 @@
+*.DS_Store
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xccheckout
+project.xcworkspace/
+xcuserdata/
+
+# Elm-Project ignores 
+node_modules
+elm-stuff/
+repl-temp-*
+coverage
+dist/
+tmp
+elm.js
+npm-debug.log
+.editorconfig
+*.sublime-workspace
+*.sublime-project
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+### VisualStudioCode ###
+.vscode/*
