@@ -30,7 +30,11 @@ gulp.task('markdown', () => {
     .pipe(gulp.dest('dist/content'));
 });
 
-gulp.task('clean', del.bind(null, ['dist']));
+
+gulp.task('deploy', () => {
+  return gulp.src('./dist/**/*')
+    .pipe($.ghPages());
+});
 
 
 gulp.task('build', ['html', 'styles','images', 'markdown'], () => {
@@ -40,6 +44,6 @@ gulp.task('build', ['html', 'styles','images', 'markdown'], () => {
 gulp.task('default', () => {
   return new Promise(resolve => {
     dev = false;
-    runSequence(['clean'], 'build', resolve);
+    runSequence('build', resolve);
   });
 });
