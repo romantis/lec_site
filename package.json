@@ -6,9 +6,8 @@
   "scripts": {
     "start": "lite-server --baseDir=\"dist\"",
     "deploy": "gulp deploy",
-    "build": "webpack -p",
-    "prebuild": "gulp",
-    "postbuild": "npm run deplay"
+    "build": "gulp",
+    "prebuild": "webpack -p"
   },
   "keywords": [],
   "author": "Roman Tischenko",
