@@ -4,15 +4,17 @@
   "description": "App for LEC",
   "main": "./src/index.js",
   "scripts": {
-    "start": "lite-server --baseDir=\"dist\"",
+    "start": "concurrently \"gulp watch\" \"webpack -w\"  \"lite-server --baseDir=\"dist\"\"",
     "deploy": "gulp deploy",
     "build": "gulp",
-    "prebuild": "webpack -p"
+    "postbuild": "webpack -p",
+    "postinstall": "elm-package install -y"
   },
   "keywords": [],
   "author": "Roman Tischenko",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^3.5.0",
     "del": "^3.0.0",
     "elm-webpack-loader": "^4.3.1",
     "gulp": "^3.9.1",
