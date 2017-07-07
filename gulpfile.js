@@ -31,15 +31,36 @@ gulp.task('markdown', () => {
 });
 
 
+gulp.task('extras', () => {
+  return gulp.src([
+    'src/*',
+    '!src/index.html',
+    '!src/index.js',
+  ], {
+    dot: true
+  }).pipe(gulp.dest('dist'));
+});
+
+
 gulp.task('deploy', () => {
   return gulp.src('./dist/**/*')
     .pipe($.ghPages());
 });
 
+gulp.task('clean', del.bind(null, ['dist']));
 
-gulp.task('build', ['html', 'styles','images', 'markdown'], () => {
+
+gulp.task('build', ['html', 'styles','images', 'markdown', 'extras'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
+
+gulp.task('watch', ['build'], () => {
+  gulp.watch('src/styles/**/*.css', ['styles']);
+  gulp.watch('src/images/**/*', ['images']);
+  gulp.watch('src/content/*.md', ['markdown']);
+  gulp.watch('src/index.html', ['html']);
+});
+
 
 gulp.task('default', () => {
   return new Promise(resolve => {

@@ -13,7 +13,6 @@ function fetchMeetings(url) {
 
 
 export default function(url) {
-    // localStorage.removeItem('meetings');
     if (localStorage.meetings) {
         try {
             var meetings = JSON.parse(localStorage.getItem('meetings'));
@@ -22,6 +21,7 @@ export default function(url) {
         } catch(err) {
             // It is only about parsing error
             console.error(err);
+            return;
         }
     } 
     return fetchMeetings(url);

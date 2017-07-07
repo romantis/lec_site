@@ -13,7 +13,7 @@
         "organizer": "Irina Potapova",
         "fb": "https://www.facebook.com/irina.potapova.509",
         "phone": "",
-        "banner": "english_on_monday_in_pozniaky.jpg",
+        "banner": "images/thumbnails/english_on_monday_in_pozniaky.jpg",
         "comments": ""
     },
     {
@@ -30,7 +30,7 @@
         "organizer": "Roman Pikalyuk",
         "fb": "https://www.facebook.com/ataminii",
         "phone": "",
-        "banner": "english_near_bessarabka.jpg",
+        "banner": "images/thumbnails/english_near_bessarabka.jpg",
         "comments": ""
     },
     {
@@ -47,7 +47,7 @@
         "organizer": "Tatyana Taran",
         "fb": "https://www.facebook.com/wilhelminamurr",
         "phone": "",
-        "banner": "english_wednesdays_at_obolon.jpg",
+        "banner": "images/thumbnails/english_wednesdays_at_obolon.jpg",
         "comments": ""
     },
     {
@@ -64,7 +64,7 @@
         "organizer": "Yevhen Dokuchko",
         "fb": "https://www.facebook.com/yevhenco",
         "phone": "",
-        "banner": "english_in_darnytsia.jpg",
+        "banner": "images/thumbnails/english_in_darnytsia.jpg",
         "comments": ""
     },
     {
@@ -81,7 +81,7 @@
         "organizer": "Константин Фоменко",
         "fb": "https://www.facebook.com/staunch.thomas",
         "phone": "",
-        "banner": "german_at_besarabka.jpg",
+        "banner": "images/thumbnails/german_at_besarabka.jpg",
         "comments": ""
     },
     {
@@ -98,7 +98,7 @@
         "organizer": "Максим Зуєнко",
         "fb": "https://www.facebook.com/zuienkom",
         "phone": "380931067144",
-        "banner": "english_near_vasylkivska.jpg",
+        "banner": "images/thumbnails/english_near_vasylkivska.jpg",
         "comments": ""
     },
     {
@@ -115,11 +115,11 @@
         "organizer": "Alla Zhylinska",
         "fb": "https://www.facebook.com/alla.zhy",
         "phone": "3800937724027",
-        "banner": "english_on_thursdays_in_pozniaki.jpg",
+        "banner": "images/thumbnails/english_on_thursdays_in_pozniaki.jpg",
         "comments": ""
     },
     {
-        "name": "Soirée magique et poétique",
+        "name": "Parlons français !",
         "day": 4,
         "language": "French",
         "country": "Ukraine",
@@ -132,7 +132,7 @@
         "organizer": "Alya Kval",
         "fb": "https://www.facebook.com/valentina.kval",
         "phone": "",
-        "banner": "french_near_kontraktova.jpg",
+        "banner": "images/thumbnails/french_near_kontraktova.jpg",
         "comments": ""
     },
     {
@@ -149,7 +149,7 @@
         "organizer": "Tatyana Taran",
         "fb": "https://www.facebook.com/wilhelminamurr",
         "phone": "",
-        "banner": "english_at_obolon.jpg",
+        "banner": "images/thumbnails/english_at_obolon.jpg",
         "comments": ""
     },
     {
@@ -166,7 +166,7 @@
         "organizer": "Roman Tischenko",
         "fb": "https://www.facebook.com/romaha.tischenko",
         "phone": "380981976923",
-        "banner": "english_in_tsum.jpg",
+        "banner": "images/thumbnails/english_in_tsum.jpg",
         "comments": ""
     },
     {
@@ -183,7 +183,7 @@
         "organizer": "Tina Coffee",
         "fb": "https://www.facebook.com/coffee.girl.kyiv",
         "phone": "380678913192",
-        "banner": "english_philosophy.jpg",
+        "banner": "images/thumbnails/english_philosophy.jpg",
         "comments": ""
     },
     {
@@ -200,7 +200,7 @@
         "organizer": "Victoria Goncharenko",
         "fb": "https://www.facebook.com/victoria.vika.391",
         "phone": "380922221100",
-        "banner": "pierwszy_klub_polskiego.jpg",
+        "banner": "images/thumbnails/pierwszy_klub_polskiego.jpg",
         "comments": ""
     },
     {
@@ -217,7 +217,7 @@
         "organizer": "Arsen Bakhtishaev",
         "fb": "https://www.facebook.com/bakhtishaev.arsen",
         "phone": "",
-        "banner": "english_sunday_conversation_club.jpg",
+        "banner": "images/thumbnails/english_sunday_conversation_club.jpg",
         "comments": "ATTENTION! Event is free itself, hovewer, you will be charged by administration for the staying in the anticafe. It's 39 uah/hour now."
     },
     {
@@ -234,7 +234,7 @@
         "organizer": "Oleksii Zaivenkos",
         "fb": "https://www.facebook.com/sir.lex.zaiton",
         "phone": "",
-        "banner": "spanish_in_guliver.jpg",
+        "banner": "images/thumbnails/spanish_in_guliver.jpg",
         "comments": ""
     },
     {
@@ -251,7 +251,7 @@
         "organizer": "Olga Voitsekhova",
         "fb": "https://www.facebook.com/olgavoitsekhova",
         "phone": "38937728284",
-        "banner": "parliamo_italiano.jpg",
+        "banner": "images/thumbnails/parliamo_italiano.jpg",
         "comments": ""
     },
     {
@@ -268,7 +268,7 @@
         "organizer": "Svetlana Verpeta",
         "fb": "https://www.facebook.com/profile.php?id=100005093627497",
         "phone": "380933731532",
-        "banner": "kjp_na_darnyste.jpg",
+        "banner": "images/thumbnails/kjp_na_darnyste.jpg",
         "comments": ""
     }
 ]
