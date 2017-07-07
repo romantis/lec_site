@@ -54,6 +54,6 @@ gulp.task('watch', ['build'], () => {
 gulp.task('default', () => {
   return new Promise(resolve => {
     dev = false;
-    runSequence(['clean'],'build', resolve);
+    runSequence('build', resolve);
   });
 });

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "concurrently \"gulp watch\" \"webpack -w\"  \"lite-server --baseDir=\"dist\"\"",
     "deploy": "gulp deploy",
-    "build": "gulp",
+    "prebuild": "gulp clean",
+    "build": "gulp build",
     "postbuild": "webpack -p",
     "postinstall": "elm-package install -y"
   },
