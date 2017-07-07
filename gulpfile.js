@@ -31,6 +31,17 @@ gulp.task('markdown', () => {
 });
 
 
+gulp.task('extras', () => {
+  return gulp.src([
+    'src/*',
+    '!src/index.html',
+    '!src/index.js',
+  ], {
+    dot: true
+  }).pipe(gulp.dest('dist'));
+});
+
+
 gulp.task('deploy', () => {
   return gulp.src('./dist/**/*')
     .pipe($.ghPages());
@@ -39,7 +50,7 @@ gulp.task('deploy', () => {
 gulp.task('clean', del.bind(null, ['dist']));
 
 
-gulp.task('build', ['html', 'styles','images', 'markdown'], () => {
+gulp.task('build', ['html', 'styles','images', 'markdown', 'extras'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
