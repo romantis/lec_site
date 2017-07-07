@@ -15,7 +15,7 @@
 ```bash
 npm start
 ```
-[http://localhost:3080/](http://localhost:3080/)
+[http://localhost:3000/](http://localhost:3000/)
 
 
 ## Build
