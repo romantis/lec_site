@@ -19,10 +19,21 @@ Credit: https://github.com/tobiasahlin/SpinKit */
 
 /*hsl(122, 39%, 25%)*/
 
-/*hsl(122, 39%, 35%)*/
+/*hsl(122, 39%, 69%)*/
 
 
-.lc-layout { } 
+/* Basic styles*/
+
+::selection {
+    background: hsl(122, 39%, 49%);
+    color: white;
+}
+
+a:active,
+a:hover,
+a:focus {
+    color: hsl(122, 39%, 69%);
+}
 
 .container {
     max-width: 60%;
