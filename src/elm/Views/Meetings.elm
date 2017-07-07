@@ -117,7 +117,7 @@ mgBannerView banner =
     if String.isEmpty banner then
         text ""
     else
-        div [ style [ "backgroundImage" => ("url(images/thumbnails/" ++ banner ++ ")") ], class "lc-meeting__banner" ] []
+        div [ style [ "backgroundImage" => ("url(" ++ banner ++ ")") ], class "lc-meeting__banner" ] []
 
 
 mgPlaceView : String -> String -> String -> String -> Html Msg
