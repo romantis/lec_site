@@ -115,7 +115,7 @@ mgHeaderView day timeStart timeEnd lang =
 mgBannerView : String -> Html Msg
 mgBannerView banner =
     if String.isEmpty banner then
-        text ""
+        text "No banner here"
     else
         div [ style [ "backgroundImage" => ("url(" ++ banner ++ ")") ], class "lc-meeting__banner" ] []
 
