@@ -5,10 +5,10 @@
 
 LEC is a network whose main activity is to organize regular conversation meetings ("speaking clubs") where participants can practice different languages. The core values of the Language Exchange Club (LEC) are:
 
-Languages. LEC meetings are open to anyone interested in languages.
-Exchange. Participants to LEC meetings actively help one another to practice languages.
-Volunteering. LEC meetings are organized by volunteers. Anyone can help with the organization.
-LEC meetings are free of charge and not trying to promote any commercial activity. Participants don't have to register on the websites to come to the meetings.
+* Languages. LEC meetings are open to anyone interested in languages.
+* Exchange. Participants to LEC meetings actively help one another to practice languages.
+* Volunteering. LEC meetings are organized by volunteers. Anyone can help with the organization.
+* LEC meetings are free of charge and not trying to promote any commercial activity. Participants don't have to register on the websites to come to the meetings.
 
 Participants who can afford it are encouraged to buy something from the cafeterias and cafes where most LEC meetings take place in Kyiv (so that they accept LEC gatherings - there is no commercial benefit for LEC).
 
