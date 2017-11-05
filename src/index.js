@@ -5,7 +5,7 @@ import getMeetings from './js/getMeetings';
 import embededMeetings from "./content/meetings.json";
 
 const MEETINGS_URL = 
-    'https://lecserver-qilnosxwmk.now.sh/meetings';
+    'https://us-central1-lecsite-185112.cloudfunctions.net/lecmeetings';
     
 
 const mountNode = document.getElementById('app');
