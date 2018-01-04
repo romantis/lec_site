@@ -7,14 +7,15 @@
         "city": "Kyiv",
         "address": "вулиця Олександра Мишуги, 4",
         "placeID": "ChIJLyAEfFLE1EAR7J__mg5DXiY",
-        "placeDetails": "Poznyaki metro station, Piramyda mall, Puzata hata, 2nd floor",
+        "placeDetails": "Poznyaki metro station, Piramyda mall, Puzata Hata, 2nd floor",
         "timeStart": "19:00",
         "timeEnd": "22:00",
         "organizer": "Irina Potapova",
         "fb": "https://www.facebook.com/irina.potapova.509",
         "phone": "",
         "banner": "images/thumbnails/english_on_monday_in_pozniaky.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "english-on-monday-in-pozniaky"
     },
     {
         "name": "English near Bessarabka",
@@ -24,14 +25,15 @@
         "city": "Kyiv",
         "address": "Метроград Бессарабська площа",
         "placeID": "ChIJLXBbXv_O1EAR2OtbPt03Qj0",
-        "placeDetails": "Bessarabka, Metrograd underground mall, Olivie, -2nd floor, table just right from the entrance",
+        "placeDetails": "Bessarabka, Metrograd underground mall, Olivie, floor -2, table right next to the entrance",
         "timeStart": "19:00",
         "timeEnd": "22:00",
         "organizer": "Roman Pikalyuk",
         "fb": "https://www.facebook.com/ataminii",
         "phone": "",
         "banner": "images/thumbnails/english_near_bessarabka.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "english-near-bessarabka"
     },
     {
         "name": "Wednesday's English@Obolon",
@@ -41,14 +43,15 @@
         "city": "Kyiv",
         "address": "ТРЦ Dream Town 2",
         "placeID": "ChIJ1-UZymrS1EARKU_VR1sSpTU",
-        "placeDetails": "Minska metro station,.Dreamtown mall, 2-nd building, 2-nd floor foodcort",
+        "placeDetails": "Minska metro station, Dreamtown 2 , 1-st floor, atrium Rome, Aroma Kava",
         "timeStart": "19:00",
         "timeEnd": "21:00",
         "organizer": "Tatyana Taran",
         "fb": "https://www.facebook.com/wilhelminamurr",
         "phone": "",
         "banner": "images/thumbnails/english_wednesdays_at_obolon.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "wednesdays-english-at-obolon"
     },
     {
         "name": "English in Darnytsia",
@@ -58,14 +61,15 @@
         "city": "Kyiv",
         "address": "ул. Строителей 40",
         "placeID": "ChIJn1E8wfvP1EARjC9OX45dlUo",
-        "placeDetails": "Darnitsya metro station, Doma center mall. Puzata hata, second floor",
+        "placeDetails": "Darnitsya metro station, Doma center mall. Puzata Hata, second floor",
         "timeStart": "19:00",
         "timeEnd": "21:00",
         "organizer": "Yevhen Dokuchko",
         "fb": "https://www.facebook.com/yevhenco",
         "phone": "",
         "banner": "images/thumbnails/english_in_darnytsia.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "english-in-darnytsia"
     },
     {
         "name": "German near Besarabka",
@@ -75,14 +79,15 @@
         "city": "Kyiv",
         "address": "Velyka Vasylkivska St., 40",
         "placeID": "ChIJyfyHFfzO1EARcpso8hN5d1E",
-        "placeDetails": "Bessarabka, Puzata hata, second floor",
+        "placeDetails": "Lva Tostoho metro station, Puzata Hata , 2nd floor, room with the fireplace",
         "timeStart": "19:00",
         "timeEnd": "21:00",
         "organizer": "Константин Фоменко",
         "fb": "https://www.facebook.com/staunch.thomas",
         "phone": "",
         "banner": "images/thumbnails/german_at_besarabka.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "german-near-besarabka"
     },
     {
         "name": "English near Vasylkivska",
@@ -92,14 +97,15 @@
         "city": "Kyiv",
         "address": "Soup House",
         "placeID": "ChIJYZ8qAtvI1EAR2RfaHfGEOWU",
-        "placeDetails": "Vasilkovska metro station,.Soup House. Look for a table in the middle, with a piece of paper with a \"E\" letter on it.",
+        "placeDetails": "Vasilkovska metro station, Soup House. Look for a table in the middle, with a piece of paper with a \"E\" letter on it.",
         "timeStart": "19:00",
         "timeEnd": "21:00",
         "organizer": "Максим Зуєнко",
         "fb": "https://www.facebook.com/zuienkom",
         "phone": "380931067144",
         "banner": "images/thumbnails/english_near_vasylkivska.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "english-near-vasylkivska"
     },
     {
         "name": "English on Thursdays in Pozniaki",
@@ -109,14 +115,15 @@
         "city": "Kyiv",
         "address": "вулиця Олександра Мишуги, 4",
         "placeID": "ChIJLyAEfFLE1EAR7J__mg5DXiY",
-        "placeDetails": "Poznyaki metro station, Piramyda mall, Puzata hata, second floor",
+        "placeDetails": "Poznyaki metro station, Piramyda mall, Puzata Hata, second floor",
         "timeStart": "19:00",
         "timeEnd": "22:00",
-        "organizer": "Alla Zhylinska",
-        "fb": "https://www.facebook.com/alla.zhy",
-        "phone": "3800937724027",
+        "organizer": "Victoria Fomenko",
+        "fb": "https://www.facebook.com/vik.mailbox",
+        "phone": "",
         "banner": "images/thumbnails/english_on_thursdays_in_pozniaki.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "english-on-thursdays-in-pozniaki"
     },
     {
         "name": "Parlons français !",
@@ -126,14 +133,15 @@
         "city": "Kyiv",
         "address": "вулиця Петра Сагайдачного, 24",
         "placeID": "ChIJS7jgA0HO1EARWdIK9woJxto",
-        "placeDetails": "Kontraktova plosha metro station. Puzata hata., third floor, nearby the bar",
+        "placeDetails": "Kontraktova plosha metro station. Puzata Hata, last floor near the bar",
         "timeStart": "19:00",
         "timeEnd": "21:00",
         "organizer": "Alya Kval",
         "fb": "https://www.facebook.com/valentina.kval",
         "phone": "",
         "banner": "images/thumbnails/french_near_kontraktova.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "parlons-français"
     },
     {
         "name": "Friday's English@Obolon",
@@ -143,31 +151,15 @@
         "city": "Kyiv",
         "address": "ТРЦ Dream Town 2",
         "placeID": "ChIJ1-UZymrS1EARKU_VR1sSpTU",
-        "placeDetails": "Minska metro station, Dreamtown 2 , 2-nd floor foodcort",
+        "placeDetails": "Minska metro station, Dreamtown 2 , 1-st floor, atrium Rome, Aroma Kava",
         "timeStart": "19:00",
         "timeEnd": "21:00",
         "organizer": "Tatyana Taran",
         "fb": "https://www.facebook.com/wilhelminamurr",
         "phone": "",
         "banner": "images/thumbnails/english_at_obolon.jpg",
-        "comments": ""
-    },
-    {
-        "name": "English in TSUM",
-        "day": 5,
-        "language": "English",
-        "country": "Ukraine",
-        "city": "Kyiv",
-        "address": "ЦУМ",
-        "placeID": "ChIJtzp6ZVbO1EARHcY_9nce700",
-        "placeDetails": "Teatralna metro station. TSUM mall. 6-th foor, foodcort",
-        "timeStart": "19:00",
-        "timeEnd": "22:00",
-        "organizer": "Roman Tischenko",
-        "fb": "https://www.facebook.com/romaha.tischenko",
-        "phone": "380981976923",
-        "banner": "images/thumbnails/english_in_tsum.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "fridays-english-at-obolon"
     },
     {
         "name": "Philosophy Meeting in English",
@@ -177,14 +169,15 @@
         "city": "Kyiv",
         "address": "1/2 Baseina Street",
         "placeID": "ChIJBc00ef_O1EAR6jasFA_Rx7Y",
-        "placeDetails": "Bessarabka.Puzata hata, second floor.",
+        "placeDetails": "Bessarabka. Puzata Hata, second floor.",
         "timeStart": "19:30",
         "timeEnd": "23:00",
         "organizer": "Tina Coffee",
         "fb": "https://www.facebook.com/coffee.girl.kyiv",
         "phone": "380678913192",
         "banner": "images/thumbnails/english_philosophy.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "philosophy-meeting-in-english"
     },
     {
         "name": "PKP UA - Klub Języka Polskiego Kyiv",
@@ -201,7 +194,8 @@
         "fb": "https://www.facebook.com/victoria.vika.391",
         "phone": "380922221100",
         "banner": "images/thumbnails/pierwszy_klub_polskiego.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "pkp-ua-klub-języka-polskiego"
     },
     {
         "name": "Sunday conversation club",
@@ -211,14 +205,15 @@
         "city": "Kyiv",
         "address": "Kostiantynivska St., 21",
         "placeID": "ChIJh9W9WWvO1EAR3aNxOZjal-0",
-        "placeDetails": "Kontraktova ploscha metro station, Freud house anticafe.",
+        "placeDetails": "Kontraktova ploscha metro station, Freud house anticafe",
         "timeStart": "13:00",
         "timeEnd": "15:00",
         "organizer": "Arsen Bakhtishaev",
         "fb": "https://www.facebook.com/bakhtishaev.arsen",
         "phone": "",
         "banner": "images/thumbnails/english_sunday_conversation_club.jpg",
-        "comments": "ATTENTION! Event is free itself, hovewer, you will be charged by administration for the staying in the anticafe. It's 39 uah/hour now."
+        "comments": "ATTENTION! Event is free itself, hovewer, you will be charged by administration for the staying in the anticafe. It's 39 uah/hour now.",
+        "slug": "sunday-conversation-club"
     },
     {
         "name": "Charlas en español",
@@ -228,14 +223,15 @@
         "city": "Kyiv",
         "address": "Спортивна площа, 1a",
         "placeID": "ChIJH-gHA_7O1EARkrSgsMM08gE",
-        "placeDetails": "Gulliver mall, 5-th floor foodcort, opposite to bowling",
+        "placeDetails": "Gulliver mall, 5th floor foodcourt, opposite to the bowling",
         "timeStart": "17:30",
         "timeEnd": "20:30",
-        "organizer": "Oleksii Zaivenkos",
-        "fb": "https://www.facebook.com/sir.lex.zaiton",
+        "organizer": "Sergio Prijódquin",
+        "fb": "https://www.facebook.com/sergio.prijodquin",
         "phone": "",
         "banner": "images/thumbnails/spanish_in_guliver.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "charlas-en-español"
     },
     {
         "name": "Parliamo italiano",
@@ -245,14 +241,15 @@
         "city": "Kyiv",
         "address": "Спортивна площа, 1a",
         "placeID": "ChIJH-gHA_7O1EARkrSgsMM08gE",
-        "placeDetails": "Gullive\" mall, 5-th floor foodcort, nearby \"Kryla\" cafe",
+        "placeDetails": "Gulliver mall, 5th floor foodcourt, near \"Kryla\" cafe",
         "timeStart": "15:00",
         "timeEnd": "18:00",
         "organizer": "Olga Voitsekhova",
         "fb": "https://www.facebook.com/olgavoitsekhova",
         "phone": "38937728284",
         "banner": "images/thumbnails/parliamo_italiano.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "parliamo-italiano"
     },
     {
         "name": "KJP - Polski na Darnytse zaprasza!",
@@ -262,13 +259,14 @@
         "city": "Kyiv",
         "address": "ул. Строителей 40",
         "placeID": "ChIJn1E8wfvP1EARjC9OX45dlUo",
-        "placeDetails": "Darnitsya metro station. Doma center mall. Puzata hata, 2nd floor",
+        "placeDetails": "Darnitsya metro station. Doma center mall. Puzata Hata, 2nd floor",
         "timeStart": "12:15",
         "timeEnd": "14:00",
         "organizer": "Svetlana Verpeta",
         "fb": "https://www.facebook.com/profile.php?id=100005093627497",
         "phone": "380933731532",
         "banner": "images/thumbnails/kjp_na_darnyste.jpg",
-        "comments": ""
+        "comments": "",
+        "slug": "kjp-polski-na-darnytse-zaprasza"
     }
 ]
