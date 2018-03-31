@@ -29,7 +29,7 @@ update msg model =
                     else
                         []
             in
-            { model | route = currentRoute } ! cmds
+                { model | route = currentRoute } ! cmds
 
         Navigate url ->
             model ! [ Navigation.newUrl url ]
@@ -37,13 +37,16 @@ update msg model =
         GotMeetings xs ->
             let
                 meetings =
-                    List.sortBy .day xs
+                    xs
+                        |> List.sortBy .day
+                        |> List.filter ((/=) 0 << .day)
+                     
             in
-            { model
-                | meetings = meetings
-                , languages = getLangs xs
-            }
-                ! []
+                { model
+                    | meetings = meetings
+                    , languages = getLangs xs
+                }
+                    ! []
 
         ShowMap pid ->
             if pid /= model.shownMap then
@@ -67,7 +70,7 @@ update msg model =
                 _ =
                     Debug.log ("Faild to load " ++ mdName ++ ".md") err
             in
-            ( model, Cmd.none )
+                ( model, Cmd.none )
 
         NowDate date ->
             { model | date = date } ! []
