@@ -8,26 +8,27 @@
     "deploy": "gulp deploy",
     "prebuild": "gulp clean",
     "build": "gulp build",
-    "postbuild": "webpack -p",
-    "postinstall": "elm-package install -y"
+    "postbuild": "webpack -p"
   },
   "keywords": [],
   "author": "Roman Tischenko",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^3.5.0",
+    "@webpack-cli/migrate": "^0.1.0",
+    "concurrently": "4.0.1",
     "del": "^3.0.0",
-    "elm-webpack-loader": "^4.4.0",
+    "elm-webpack-loader": "5.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "6.0.0",
     "gulp-cssnano": "^2.1.2",
     "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.2",
     "gulp-load-plugins": "^1.5.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-size": "^2.1.0",
+    "gulp-size": "3.0.0",
     "run-sequence": "^2.2.0",
-    "webpack": "^3.8.1"
+    "webpack": "4.17.2",
+    "webpack-cli": "^3.1.0"
   },
   "dependencies": {
     "reqwest": "^2.0.5"

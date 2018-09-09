@@ -1,41 +1,47 @@
 module Main exposing (main)
 
+import Browser
 import Commands exposing (getPageMD)
-import Date
+import Time
 import Dict
 import List
 import Messages exposing (Msg(..))
 import Models exposing (Model, initialModel)
-import Navigation exposing (Location)
 import Ports
 import Routing exposing (Route(..), routeString)
 import Task
 import Update exposing (update)
 import View exposing (view)
+import Url exposing (Url)
+import Browser.Navigation as Nav exposing (Key)
 
+type alias Flags =
+    {}
 
-init : Location -> ( Model, Cmd Msg )
-init location =
+init : Flags -> Url -> Key -> ( Model, Cmd Msg )
+init flags url key =
     let
         currentRoute =
-            Routing.parser location
+            Routing.parser url
 
         model =
-            initialModel currentRoute
+            initialModel currentRoute key
 
         pageString =
             Routing.routeString currentRoute
 
         nowDateCmd =
-            [ Task.perform NowDate Date.now ]
+            Task.perform NowDate Time.now
 
         pageMdCmd =
             if List.member pageString (Dict.keys model.content) then
-                [ getPageMD pageString ]
+                getPageMD pageString
             else
-                []
+                Cmd.none
     in
-    model ! List.concat [ nowDateCmd, pageMdCmd ]
+    ( model
+    , Cmd.batch [ nowDateCmd, pageMdCmd ]
+    )
 
 
 subscriptions : Model -> Sub Msg
@@ -43,11 +49,13 @@ subscriptions _ =
     Ports.meetings GotMeetings
 
 
-main : Program Never Model Msg
+main : Program Flags Model Msg
 main =
-    Navigation.program LocationUpd
+    Browser.application
         { init = init
         , view = view
         , update = update
         , subscriptions = subscriptions
+        , onUrlRequest = LocationUpd
+        , onUrlChange = Navigate
         }

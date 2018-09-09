@@ -1,4 +1,4 @@
-import Elm from './elm/Main.elm';
+import { Elm } from './elm/Main.elm';
 
 import getMeetings from './js/getMeetings';
 
@@ -8,11 +8,7 @@ const MEETINGS_URL =
     'https://us-central1-lecsite-185112.cloudfunctions.net/lecmeetings';
     
 
-const mountNode = document.getElementById('app');
-
-const app = Elm
-    .Main
-    .embed(mountNode);
+const app = Elm.Main.init(document.getElementById('app'));
 
 // Send embeded meetings first
 app.ports.meetings.send(embededMeetings);

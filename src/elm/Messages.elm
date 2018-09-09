@@ -1,16 +1,17 @@
 module Messages exposing (..)
 
-import Navigation exposing (Location)
 import Http
-import Models exposing(Meeting, PlaceID)
-import Date exposing (Date)
+import Browser exposing (UrlRequest)
+import Models exposing (Meeting, PlaceID)
+import Time exposing (Posix)
+import Url exposing (Url)
 
 
 type Msg
-  = LocationUpd Location
-  | Navigate String
+  = LocationUpd UrlRequest
+  | Navigate Url
   | GotMeetings (List Meeting)
   | ShowMap PlaceID
   | FilterLang String
   | GetMD String (Result Http.Error String)
-  | NowDate Date
+  | NowDate Posix

@@ -2,18 +2,28 @@ module Helpers.Main exposing (..)
 
 import Dict
 import Html exposing (Attribute)
-import Html.Events exposing (defaultOptions, on, onWithOptions, targetValue)
+import Html.Events exposing (on, targetValue, preventDefaultOn)
 import Json.Decode as Json exposing (succeed)
+import Time exposing (utc, toHour, toMinute)
 import Set
+import Tuple
 
 
-(=>) =
-    (,)
-
+weekDays =
+    [ "Mondays"
+    , "Tuesdays"
+    , "Wednesdays"
+    , "Thursdays"
+    , "Fridays"
+    , "Saturdays"
+    , "Sundays" 
+    ]
 
 weekDayStrings : Dict.Dict Int String
 weekDayStrings =
-    Dict.fromList <| List.indexedMap (,) [ "Mondays", "Tuesdays", "Wednesdays", "Thursdays", "Fridays", "Saturdays", "Sundays" ]
+    weekDays
+        |> List.indexedMap Tuple.pair
+        |> Dict.fromList
 
 
 weekDay : Int -> String
@@ -30,13 +40,24 @@ getLangs xs =
         |> Set.toList
 
 
-hrefClick : (String -> msg) -> String -> Attribute msg
-hrefClick msg url =
-    onWithOptions
-        "click"
-        { defaultOptions | preventDefault = True }
-        (succeed (msg url))
+hrefClick : msg-> Attribute msg
+hrefClick msg =
+     preventDefaultOn
+        "click" 
+        (Json.map alwaysPreventDefault (Json.succeed msg))
 
+
+alwaysPreventDefault : msg -> ( msg, Bool )
+alwaysPreventDefault msg =
+  ( msg, True )
 
 onChange msg =
     on "change" (Json.map msg targetValue)
+
+
+toUtcString : Time.Posix -> String
+toUtcString time =
+    String.fromInt (toHour utc time)
+    ++ ":" ++
+    String.fromInt (toMinute utc time)
+    ++ " (UTC)"

@@ -1,7 +1,8 @@
 module View exposing (view)
 
-import Date
+import Time
 import Dict
+import Browser
 import Html exposing (..)
 import Html.Attributes exposing (class)
 import Messages exposing (Msg(..))
@@ -14,19 +15,27 @@ import Views.MDPage as MDPage
 import Views.NotFound as NotFound
 
 
-view : Model -> Html Msg
+view : Model -> Browser.Document Msg
 view model =
-    div [ class "" ]
+    { title = "LEC"
+    , body =
         [ Header.view model.route model.navItems
         , page model
-        , Footer.view <| Date.year model.date
+        , Footer.view  model.date
         ]
+    }
 
 
 page : Model -> Html Msg
 page model =
     case model.route of
         HomeRoute ->
+            Home.view model
+        
+        Meetings ->
+            Home.view model
+
+        Meeting _ ->
             Home.view model
 
         AboutRoute ->

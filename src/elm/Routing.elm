@@ -1,12 +1,14 @@
 module Routing exposing (..)
 
-import Navigation
-import UrlParser exposing (..)
-
+import Url exposing (..)
+import Url exposing (Url)
+import Url.Parser exposing (..)
 
 type Route
     = NotFoundRoute 
     | HomeRoute
+    | Meetings
+    | Meeting String
     | AboutRoute
     | FAQRoute
 
@@ -14,29 +16,39 @@ type Route
 routeString : Route -> String
 routeString route =
     case route of 
-        HomeRoute ->
-            "home"
-        AboutRoute ->
+        HomeRoute -> 
+            "meetings"
+
+        Meetings -> 
+            "meetings"
+
+        Meeting slug -> 
+            "meetings/" ++ slug
+
+        AboutRoute -> 
             "about"
-        FAQRoute ->
+
+        FAQRoute -> 
             "faq"
-        _ ->
-            ""
+
+        _ -> ""
         
 
-route : Parser (Route -> c) c
-route =
+matches : Parser (Route -> c) c
+matches =
     oneOf
         [ map HomeRoute top
         , map HomeRoute (s "home")
+        , map Meetings (s "meetings")
+        , map Meeting (s "meetings" </> string)
         , map AboutRoute (s "about")
         , map FAQRoute (s "faq")
         ]
 
 
-parser : Navigation.Location -> Route
-parser location =
-     case parseHash route location of
+parser : Url -> Route
+parser url =
+     case parse matches url of
         Just route ->
             route
 

@@ -1,6 +1,6 @@
 module Views.Header exposing (view)
 
-import Helpers.Main exposing ((=>), hrefClick)
+import Helpers.Main exposing (hrefClick)
 import Html exposing (..)
 import Html.Attributes exposing (class, classList, href, src, style, target, title)
 import Messages exposing (Msg(..))
@@ -13,7 +13,6 @@ view currentPage pages =
     nav [ class "lc-nav" ] <|
         [ a
             [ class "lc-nav__item lc-nav__item--brand"
-            , hrefClick Navigate "#home"
             , href "/home"
             ]
             [ abbr [ title "Language Exchange Club" ]
@@ -38,11 +37,10 @@ navItemView current route =
     in
     a
         [ classList
-            [ "lc-nav__item" => True
-            , "lc-nav__item--active" => isActive
+            [ ("lc-nav__item", True)
+            , ("lc-nav__item--active", isActive)
             ]
-        , hrefClick Navigate <| "#" ++ routeName
-        , href <| "#" ++ routeName
+        , href <| routeName
         ]
         [ text routeName
         ]

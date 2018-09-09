@@ -1,38 +1,54 @@
 module Update exposing (..)
 
+import Browser
+import Browser.Navigation as Nav exposing (Key)
+import Url exposing (Url)
 import Commands exposing (getPageMD)
 import Dict
 import Helpers.Main exposing (getLangs)
 import Messages exposing (Msg(..))
 import Models exposing (Model)
-import Navigation
 import Routing
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        LocationUpd location ->
+        LocationUpd urlRequest ->
+            case urlRequest of
+                Browser.Internal url ->
+                    ( model
+                    , Nav.pushUrl model.key (Url.toString url)
+                    )
+
+                Browser.External url ->
+                    ( model
+                    , Nav.load url
+                    )
+
+
+
+        Navigate url ->
             let
-                currentRoute =
-                    Routing.parser location
-
+                newRoute =
+                    Routing.parser url
+                
                 pageString =
-                    Routing.routeString currentRoute
-
-                cmds =
+                    Routing.routeString newRoute
+                
+                cmd =
                     if
                         List.member pageString (Dict.keys model.content)
                             && String.isEmpty (Maybe.withDefault "" (Dict.get pageString model.content))
                     then
-                        [ getPageMD pageString ]
+                        getPageMD pageString
                     else
-                        []
+                        Cmd.none
             in
-                { model | route = currentRoute } ! cmds
+            ( { model | route = newRoute }
+            , cmd
+            )
 
-        Navigate url ->
-            model ! [ Navigation.newUrl url ]
 
         GotMeetings xs ->
             let
@@ -42,35 +58,51 @@ update msg model =
                         |> List.filter ((/=) 0 << .day)
                      
             in
-                { model
-                    | meetings = meetings
-                    , languages = getLangs xs
-                }
-                    ! []
+            ({ model
+                | meetings = meetings
+                , languages = getLangs xs
+            }
+            , Cmd.none
+            )
+
 
         ShowMap pid ->
-            if pid /= model.shownMap then
-                { model | shownMap = pid } ! []
-            else
-                { model | shownMap = "" } ! []
+            let 
+                updShowMap =
+                    if pid /= model.shownMap then pid else ""
+            in
+            ({ model | shownMap = updShowMap }
+            , Cmd.none
+            )
+
 
         FilterLang lang ->
-            if lang == "All" || String.isEmpty lang then
-                { model | selectedLang = "" } ! []
-            else
-                { model | selectedLang = lang } ! []
+            let
+                uplang = 
+                    if lang == "All" || String.isEmpty lang then "" else lang
+            in
+            ({ model | selectedLang = uplang } 
+            , Cmd.none
+            )
+
 
         GetMD mdName (Ok md) ->
             ( { model | content = Dict.insert mdName md model.content }
             , Cmd.none
             )
 
+
         GetMD mdName (Err err) ->
             let
                 _ =
                     Debug.log ("Faild to load " ++ mdName ++ ".md") err
             in
-                ( model, Cmd.none )
+            ( model
+            , Cmd.none
+            )
+
 
         NowDate date ->
-            { model | date = date } ! []
+            ({ model | date = date }
+            , Cmd.none
+            )

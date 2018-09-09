@@ -1,19 +1,21 @@
 module Models exposing (..)
 
-import Date exposing (Date)
+import Time exposing(Posix, millisToPosix)
 import Dict exposing (Dict)
 import Routing exposing (Route(..))
+import Browser.Navigation exposing (Key)
 
 
 type alias Model =
     { route : Routing.Route
+    , key : Key
     , navItems : List Route
     , meetings : List Meeting
     , languages : List String
     , selectedLang : String
     , shownMap : PlaceID
     , content : Dict String String
-    , date : Date
+    , date : Posix
     }
 
 
@@ -40,16 +42,17 @@ type alias Meeting =
     }
 
 
-initialModel : Routing.Route -> Model
-initialModel route =
+initialModel : Routing.Route -> Key -> Model
+initialModel route key =
     { route = route
+    , key = key
     , navItems = [ AboutRoute, FAQRoute ]
     , meetings = []
     , languages = []
     , selectedLang = ""
     , shownMap = ""
     , content = Dict.fromList [ ( "about", "" ), ( "faq", "" ) ]
-    , date = Date.fromTime 0
+    , date = millisToPosix 0
     }
 
 

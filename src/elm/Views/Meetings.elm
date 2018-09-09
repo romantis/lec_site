@@ -1,6 +1,6 @@
 module Views.Meetings exposing (..)
 
-import Helpers.Main exposing ((=>), onChange, weekDay)
+import Helpers.Main exposing (onChange, weekDay)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (on, onClick)
@@ -87,7 +87,7 @@ mgView shownMap mg =
                 [ text mg.comments ]
             ]
         , ifPlaceID <|
-            div [ style [ "textAlign" => "right" ] ]
+            div [ style "textAlign" "right" ]
                 [ a [ href "javascript: void(0)", onClick <| ShowMap meetingID ]
                     [ if meetingID == shownMap then
                         text "Hide Map"
@@ -117,7 +117,10 @@ mgBannerView banner =
     if String.isEmpty banner then
         text "No banner here"
     else
-        div [ style [ "backgroundImage" => ("url(" ++ banner ++ ")") ], class "lc-meeting__banner" ] []
+        div 
+            [ style "backgroundImage" ("url(" ++ banner ++ ")") 
+            , class "lc-meeting__banner" 
+            ] []
 
 
 mgPlaceView : String -> String -> String -> String -> Html Msg
@@ -153,7 +156,7 @@ mgFooterView organizer fb phone =
         , div [ class "lc-meeting-contacts__body" ]
             [ a [ href fb, target "_blank" ]
                 [ fbIcon "22" "#3B5998"
-                , span [ style [ "margin-left" => "5px" ] ]
+                , span [ style "margin-left" "5px" ]
                     [ text organizer ]
                 ]
             , if phone /= "" then
