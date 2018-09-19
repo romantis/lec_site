@@ -76,7 +76,10 @@ mgView shownMap mg =
             else
                 node
     in
-    section [ class "lc-meeting" ]
+    section 
+        [ class "lc-meeting"
+        , id mg.slug 
+        ]
         [ mgHeaderView mg.day mg.timeStart mg.timeEnd mg.language
         , mgBannerView mg.banner
         , h3 [ class "lc-meeting_title" ]
@@ -88,7 +91,7 @@ mgView shownMap mg =
             ]
         , ifPlaceID <|
             div [ style "textAlign" "right" ]
-                [ a [ href "javascript: void(0)", onClick <| ShowMap meetingID ]
+                [ span [ onClick <| ShowMap meetingID, class "lc-show-map-btn" ]
                     [ if meetingID == shownMap then
                         text "Hide Map"
                       else

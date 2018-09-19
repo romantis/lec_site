@@ -29,9 +29,15 @@ Credit: https://github.com/tobiasahlin/SpinKit */
     color: white;
 }
 
+.lc-show-map-btn {
+    color: hsl(122, 39%, 49%);
+}
+
 a:active,
 a:hover,
-a:focus {
+a:focus,
+.lc-show-map-btn {
+    cursor: pointer;
     color: hsl(122, 39%, 69%);
 }
 
@@ -146,6 +152,9 @@ a:focus {
 */
 
 .lc-meetings {
+    display: block;
+    text-decoration: none;
+    color: initial;
     margin-top: 20px;
     min-height: calc(60vh - 195px);
 }

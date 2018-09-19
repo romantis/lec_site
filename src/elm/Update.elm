@@ -1,7 +1,9 @@
 module Update exposing (..)
 
 import Browser
+import Browser.Dom as Dom
 import Browser.Navigation as Nav exposing (Key)
+import Task
 import Url exposing (Url)
 import Commands exposing (getPageMD)
 import Dict
@@ -11,9 +13,15 @@ import Models exposing (Model)
 import Routing
 
 
+
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
+        NoOp ->
+            ( model
+            , Cmd.none
+            )
+
         LocationUpd urlRequest ->
             case urlRequest of
                 Browser.Internal url ->
@@ -32,9 +40,11 @@ update msg model =
             let
                 newRoute =
                     Routing.parser url
+                        |> Debug.log ""
                 
                 pageString =
                     Routing.routeString newRoute
+                        |> Debug.log ""
                 
                 cmd =
                     if
@@ -93,10 +103,10 @@ update msg model =
 
 
         GetMD mdName (Err err) ->
-            let
-                _ =
-                    Debug.log ("Faild to load " ++ mdName ++ ".md") err
-            in
+            -- let
+            --     _ =
+            --         Debug.log ("Faild to load " ++ mdName ++ ".md") err
+            -- in
             ( model
             , Cmd.none
             )
@@ -106,3 +116,9 @@ update msg model =
             ({ model | date = date }
             , Cmd.none
             )
+
+-- jumpToBottom : String -> Cmd Msg
+-- jumpToBottom id =
+--   Dom.getViewportOf id
+--     |> Task.andThen (\info -> Dom.setViewportOf id 0 info.scene.height)
+--     |> Task.perform (\_ -> NoOp)

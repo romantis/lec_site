@@ -39,6 +39,7 @@ type alias Meeting =
     , phone : String
     , banner : String
     , comments : String
+    , slug : String
     }
 
 

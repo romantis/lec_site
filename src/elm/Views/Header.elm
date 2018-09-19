@@ -13,7 +13,7 @@ view currentPage pages =
     nav [ class "lc-nav" ] <|
         [ a
             [ class "lc-nav__item lc-nav__item--brand"
-            , href "/home"
+            , href "/meetings"
             ]
             [ abbr [ title "Language Exchange Club" ]
                 [ text "LEC" ]

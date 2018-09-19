@@ -8,7 +8,8 @@ import Url exposing (Url)
 
 
 type Msg
-  = LocationUpd UrlRequest
+  = NoOp
+  | LocationUpd UrlRequest
   | Navigate Url
   | GotMeetings (List Meeting)
   | ShowMap PlaceID
