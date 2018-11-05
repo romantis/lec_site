@@ -29,8 +29,8 @@ view model =
 page : Model -> Html Msg
 page model =
     case model.route of
-        HomeRoute ->
-            Home.view model
+        -- HomeRoute ->
+        --     Home.view model
         
         Meetings ->
             Home.view model

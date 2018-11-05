@@ -6,7 +6,6 @@ import Url.Parser exposing (..)
 
 type Route
     = NotFoundRoute 
-    | HomeRoute
     | Meetings
     | Meeting String
     | AboutRoute
@@ -16,9 +15,6 @@ type Route
 routeString : Route -> String
 routeString route =
     case route of 
-        HomeRoute -> 
-            "meetings"
-
         Meetings -> 
             "meetings"
 
@@ -37,8 +33,7 @@ routeString route =
 matches : Parser (Route -> c) c
 matches =
     oneOf
-        [ map HomeRoute top
-        , map HomeRoute (s "home")
+        [ map Meetings top
         , map Meetings (s "meetings")
         , map Meeting (s "meetings" </> string)
         , map AboutRoute (s "about")
