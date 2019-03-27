@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@webpack-cli/migrate": "^0.1.0",
-    "concurrently": "4.0.1",
+    "concurrently": "^4.1.0",
     "del": "^3.0.0",
     "elm-webpack-loader": "5.0.0",
     "gulp": "^3.9.1",
@@ -24,11 +24,11 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.2",
     "gulp-load-plugins": "^1.5.0",
-    "gulp-plumber": "^1.1.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-size": "3.0.0",
     "run-sequence": "^2.2.0",
-    "webpack": "4.17.2",
-    "webpack-cli": "^3.1.0"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "reqwest": "^2.0.5"
