@@ -2,7 +2,7 @@
 
 ## Prerequisites
 * [Node 8](https://nodejs.org/en/) or greater.
-* [Elm](http://elm-lang.org/) 0.18.0 
+* [Elm](http://elm-lang.org/) 0.19.0 
 
 ## Installation
 ```bash
