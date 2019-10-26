@@ -1,8 +1,7 @@
 # Front End for Language Exchange Club
 
 ## Prerequisites
-* [Node 8](https://nodejs.org/en/) or greater.
-* [Elm](http://elm-lang.org/) 0.19.0 
+* [Node 10](https://nodejs.org/en/) or greater.
 
 ## Installation
 ```bash
