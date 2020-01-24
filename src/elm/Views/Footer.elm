@@ -15,6 +15,6 @@ view posix =
         , p []
             [ text " © "
             , text <| String.fromInt <| toYear utc posix
-            , a [ href "https://github.com/romantis/", target "_blank" ] [ text " Roman Tischenko" ]
+            , a [ href "https://github.com/romantis/", target "_blank" ] [ text " Roman Tyshchenko" ]
             ]
         ]
