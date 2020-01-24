@@ -1,8 +1,10 @@
 import { Elm } from './elm/Main.elm';
 
-import getMeetings from './js/getMeetings';
+import "../public/styles/main.css";
 
-import embededMeetings from "./content/meetings.json";
+import getMeetings from '../public/js/getMeetings';
+
+import embededMeetings from "../public/content/meetings.json";
 
 const MEETINGS_URL = 
     'https://us-central1-lecsite-185112.cloudfunctions.net/lecmeetings';

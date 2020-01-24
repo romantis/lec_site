@@ -4,7 +4,7 @@ import Helpers.Main exposing (onChange, weekDay)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (on, onClick)
-import Json.Decode as Json
+-- import Json.Decode as Json
 import List
 import Messages exposing (Msg(..))
 import Models exposing (Meeting, Model, PlaceID, apiKey)

@@ -2,6 +2,7 @@
 
 ## Prerequisites
 * [Node 10](https://nodejs.org/en/) or greater.
+* [create-elm-app](https://github.com/halfzebra/create-elm-app#getting-started).
 
 ## Installation
 ```bash

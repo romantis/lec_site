@@ -1,9 +1,9 @@
 module Update exposing (..)
 
 import Browser
-import Browser.Dom as Dom
+-- import Browser.Dom as Dom
 import Browser.Navigation as Nav exposing (Key)
-import Task
+-- import Task
 import Url exposing (Url)
 import Commands exposing (getPageMD)
 import Dict
@@ -40,11 +40,11 @@ update msg model =
             let
                 newRoute =
                     Routing.parser url
-                        |> Debug.log ""
+                        -- |> Debug.log ""
                 
                 pageString =
                     Routing.routeString newRoute
-                        |> Debug.log ""
+                        -- |> Debug.log ""
                 
                 cmd =
                     if
