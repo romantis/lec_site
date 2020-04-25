@@ -1,5 +1,4 @@
-[
-  {
+[{
     "name": "English on Monday in Pozniaky",
     "day": 1,
     "language": "English",
@@ -16,15 +15,14 @@
     "banner": "images/thumbnails/english_on_monday_in_pozniaky.jpg",
     "comments": "",
     "slug": "english-on-monday-in-pozniaky"
-  },
-  {
+}, {
     "name": "English small talks",
     "day": 1,
     "language": "English",
     "country": "Ukraine",
     "city": "Kyiv",
     "address": "Ул. Р. Окипной, 3",
-    "placeID": "",
+    "placeID": "ChIJwa5O_vHP1EAR9PgkJK2aVYw",
     "placeDetails": "Livoberezhna metro, Puzata Khata",
     "timeStart": "19:00",
     "timeEnd": "22:00",
@@ -34,14 +32,13 @@
     "banner": "images/thumbnails/photo_meeting_English_Livoberezhna.jpg",
     "comments": "",
     "slug": ""
-  },
-  {
+}, {
     "name": "English in Shuliavka",
     "day": 2,
     "language": "English",
     "country": "Ukraine",
     "city": "Kyiv",
-    "address": "вулиця Олександра Довженка, 1В, Київ, 02000",
+    "address": "вулиця Олександра Довженка, 1В",
     "placeID": "ChIJa9ZUKTDM1EARcvfnSdK7xwo",
     "placeDetails": "Puzata Hata, 3rd floor.",
     "timeStart": "19:00",
@@ -52,8 +49,7 @@
     "banner": "images/thumbnails/english_near_bessarabka.jpg",
     "comments": "",
     "slug": "english-near-bessarabka"
-  },
-  {
+}, {
     "name": "English meeting on Kontraktova sq.",
     "day": 2,
     "language": "English",
@@ -70,8 +66,7 @@
     "banner": "images/thumbnails/eng-on-kontraktova-sq.jpg",
     "comments": "",
     "slug": "eng-on-kontraktova-sq"
-  },
-  {
+}, {
     "name": "Wednesday's English@Obolon",
     "day": 3,
     "language": "English",
@@ -88,8 +83,7 @@
     "banner": "images/thumbnails/english_wednesdays_at_obolon.jpg",
     "comments": "",
     "slug": "wednesdays-english-at-obolon"
-  },
-  {
+}, {
     "name": "English in Darnytsia",
     "day": 3,
     "language": "English",
@@ -106,14 +100,13 @@
     "banner": "images/thumbnails/english_in_darnytsia.jpg",
     "comments": "",
     "slug": "english-in-darnytsia"
-  },
-  {
+}, {
     "name": "Ein Deutsches Mittwoch Treffen",
     "day": 2,
     "language": "German",
     "country": "Ukraine",
     "city": "Kyiv",
-    "address": "Спаська вулиця, 5, Київ, 04071, Україна",
+    "address": "Спаська вулиця, 5",
     "placeID": "ChIJg1fhmGrO1EARXoVbFKblJxI",
     "placeDetails": "Unser Treffen wird regelmäßig im Cafe \"Misto Lewa\" am Sspasska Straße 5 sein",
     "timeStart": "19:00",
@@ -124,8 +117,7 @@
     "banner": "images/thumbnails/german-ein-deutsches-mittwoch-treffen.jpg",
     "comments": "",
     "slug": "ein-deutsches-mittwoch-treffen"
-  },
-  {
+}, {
     "name": "German near Besarabka",
     "day": 0,
     "language": "German",
@@ -142,8 +134,7 @@
     "banner": "images/thumbnails/german_at_besarabka.jpg",
     "comments": "",
     "slug": "german-near-besarabka"
-  },
-  {
+}, {
     "name": "Der deutsche Sprachklub!",
     "day": 4,
     "language": "German",
@@ -160,8 +151,7 @@
     "banner": "images/thumbnails/photo_meeting_German_Sprachklub.jpg",
     "comments": "",
     "slug": ""
-  },
-  {
+}, {
     "name": "English near Vasylkivska",
     "day": 4,
     "language": "English",
@@ -178,8 +168,7 @@
     "banner": "images/thumbnails/english_near_vasylkivska.jpg",
     "comments": "",
     "slug": "english-near-vasylkivska"
-  },
-  {
+}, {
     "name": "English on Thursdays in Pozniaki",
     "day": 4,
     "language": "English",
@@ -196,8 +185,7 @@
     "banner": "images/thumbnails/english_on_thursdays_in_pozniaki.jpg",
     "comments": "",
     "slug": "english-on-thursdays-in-pozniaki"
-  },
-  {
+}, {
     "name": "Parlons français !",
     "day": 4,
     "language": "French",
@@ -212,10 +200,26 @@
     "fb": "",
     "phone": "",
     "banner": "images/thumbnails/french_near_kontraktova.jpg",
-    "comments": "",
+    "comments": "C'est l'été: les rencontres sont moins régulières. Demandez dans le groupe facebook qui compte être présent.",
     "slug": "parlons-français"
-  },
-  {
+}, {
+    "name": "Spotkania z językiem polskim",
+    "day": 4,
+    "language": "Polish",
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "address": "Vasylkivska St, 100 А, Kyiv, 02000",
+    "placeID": "EilWYXN5bGtpdnNrYSBTdCwgMTAwLCBLeWl2LCBVa3JhaW5lLCAwMjAwMCIwEi4KFAoSCY9-sZnoyNRAEWMsh6eBJYTZEGQqFAoSCZlFBHXEyNRAEeKckwl5XFyG",
+    "placeDetails": "Puzata Hata at metro Vystavkovyi Tsentr",
+    "timeStart": "18:00",
+    "timeEnd": "20:00",
+    "organizer": "Ola Win",
+    "fb": "https://m.facebook.com/ola.win.75",
+    "phone": "380980148001",
+    "banner": "images/thumbnails/polski_grafika.jpg",
+    "comments": "",
+    "slug": ""
+}, {
     "name": "Friday's English@Obolon",
     "day": 5,
     "language": "English",
@@ -232,26 +236,24 @@
     "banner": "images/thumbnails/english_at_obolon.jpg",
     "comments": "",
     "slug": "fridays-english-at-obolon"
-  },
-  {
+}, {
     "name": "Ukrainian/Russian in Holosiivska",
     "day": 5,
     "language": "Ukranian/Russian",
     "country": "Ukraine",
     "city": "Kyiv",
     "address": "Dovzhenko Knyhy.kava.kino",
-    "placeID": "",
-    "placeDetails": "50 meters from metro station Holosiivska",
+    "placeID": "ChIJOduGLcrI1EARIzezR2xP9Lw",
+    "placeDetails": "50 m from metro station Holosiivska, bookshop in Dovzhenko center",
     "timeStart": "18:30",
     "timeEnd": "20:30",
     "organizer": "Dasha",
     "fb": "https://www.facebook.com/dasha.semenova.982",
     "phone": "",
     "banner": "images/thumbnails/photo_meeting_Ukrainian_Russian.jpg",
-    "comments": "",
+    "comments": "Summer: meetings may not take place every week. Check the postings in facebook.",
     "slug": ""
-  },
-  {
+}, {
     "name": "Philosophy Meeting in English",
     "day": 6,
     "language": "English",
@@ -268,26 +270,7 @@
     "banner": "images/thumbnails/english_philosophy.jpg",
     "comments": "",
     "slug": "philosophy-meeting-in-english"
-  },
-  {
-    "name": "PKP UA - Klub Języka Polskiego Kyiv",
-    "day": 6,
-    "language": "Polish",
-    "country": "Ukraine",
-    "city": "Kyiv",
-    "address": "вулиця Олександра Довженка, 1В",
-    "placeID": "ChIJa9ZUKTDM1EARcvfnSdK7xwo",
-    "placeDetails": "Shuliavska metro station. Puzata Hata",
-    "timeStart": "12:00",
-    "timeEnd": "14:00",
-    "organizer": "Victoria Goncharenko",
-    "fb": "https://www.facebook.com/victoria.vika.391",
-    "phone": "380922221100",
-    "banner": "images/thumbnails/pierwszy_klub_polskiego.jpg",
-    "comments": "",
-    "slug": "pkp-ua-klub-języka-polskiego"
-  },
-  {
+}, {
     "name": "Sunday conversation club",
     "day": 7,
     "language": "English",
@@ -304,8 +287,7 @@
     "banner": "images/thumbnails/english_sunday_conversation_club.jpg",
     "comments": "ATTENTION! Event is free itself, hovewer, you will be charged by administration for the staying in the anticafe. The meetings themselves are free of charge, however.",
     "slug": "sunday-conversation-club"
-  },
-  {
+}, {
     "name": "Charlas en español",
     "day": 7,
     "language": "Spanish",
@@ -320,10 +302,9 @@
     "fb": "https://www.facebook.com/sergio.prijodquin",
     "phone": "",
     "banner": "images/thumbnails/spanish_in_guliver.jpg",
-    "comments": "",
+    "comments": "Es el verano. Las reuniones no son tan regulares. Preguntad en facebook.",
     "slug": "charlas-en-español"
-  },
-  {
+}, {
     "name": "Parliamo italiano",
     "day": 7,
     "language": "Italian",
@@ -340,15 +321,14 @@
     "banner": "images/thumbnails/parliamo_italiano.jpg",
     "comments": "",
     "slug": "parliamo-italiano"
-  },
-  {
+}, {
     "name": "Club francais de conversation Pushkinska rue, 3/5",
     "day": 7,
     "language": "French",
     "country": "Ukraine",
     "city": "Kyiv",
-    "address": "Пушкинская, 1-3/5, Kyiv, Ukraine",
-    "placeID": "",
+    "address": "Пушкинская, 1-3/5",
+    "placeID": "ChIJS-V8IlfO1EARDJrgNGwePn4",
     "placeDetails": "CityCafe \"Віденські Булочки\"",
     "timeStart": "16:00",
     "timeEnd": "18:00",
@@ -356,28 +336,9 @@
     "fb": "https://www.facebook.com/daryaloz",
     "phone": "",
     "banner": "images/thumbnails/photo_meeting_French_Sundays.jpg",
-    "comments": "",
+    "comments": "C'est l'été: les rencontres peuvent être moins régulières. Suivez les annonces ou contactez l'organisatrice pour vérifier que la rencontre aura lieu.",
     "slug": ""
-  },
-  {
-    "name": "KJP - Polski na Darnytse zaprasza!",
-    "day": 0,
-    "language": "Polish",
-    "country": "Ukraine",
-    "city": "Kyiv",
-    "address": "ул. Строителей 40",
-    "placeID": "ChIJn1E8wfvP1EARjC9OX45dlUo",
-    "placeDetails": "Darnitsya metro station. Doma center mall. Puzata Hata, 2nd floor",
-    "timeStart": "12:00",
-    "timeEnd": "14:00",
-    "organizer": "Svetlana Verpeta",
-    "fb": "https://www.facebook.com/profile.php?id=100005093627497",
-    "phone": "380933731532",
-    "banner": "images/thumbnails/kjp_na_darnyste.jpg",
-    "comments": "",
-    "slug": "kjp-polski-na-darnytse-zaprasza"
-  },
-  {
+}, {
     "name": "LEC Book Club",
     "day": 7,
     "language": "English",
@@ -394,5 +355,4 @@
     "banner": "images/thumbnails/lec-book-club-eng.jpg",
     "comments": "",
     "slug": ""
-  }
-]
+}]

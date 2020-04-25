@@ -1,11 +1,11 @@
 {
-  "main.css": "/static/css/main.68ee6e45.chunk.css",
-  "main.js": "/static/js/main.eab062f4.chunk.js",
-  "main.js.map": "/static/js/main.eab062f4.chunk.js.map",
+  "main.css": "/static/css/main.bf855953.chunk.css",
+  "main.js": "/static/js/main.c0d8522d.chunk.js",
+  "main.js.map": "/static/js/main.c0d8522d.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.1b922744.js",
   "runtime~main.js.map": "/static/js/runtime~main.1b922744.js.map",
-  "vendors~main.js": "/static/js/vendors~main.3f5a6f90.chunk.js",
-  "vendors~main.js.map": "/static/js/vendors~main.3f5a6f90.chunk.js.map",
+  "vendors~main.js": "/static/js/vendors~main.df94d86a.chunk.js",
+  "vendors~main.js.map": "/static/js/vendors~main.df94d86a.chunk.js.map",
   "./service-worker.js": "/./service-worker.js",
   "apple-touch-icon.png": "/apple-touch-icon.png",
   "content/about.md": "/content/about.md",
@@ -35,11 +35,8 @@
   "images/thumbnails/photo_meeting_German_Sprachklub.jpg": "/images/thumbnails/photo_meeting_German_Sprachklub.jpg",
   "images/thumbnails/photo_meeting_Ukrainian_Russian.jpg": "/images/thumbnails/photo_meeting_Ukrainian_Russian.jpg",
   "images/thumbnails/pierwszy_klub_polskiego.jpg": "/images/thumbnails/pierwszy_klub_polskiego.jpg",
-  "images/thumbnails/polski grafika.jpg": "/images/thumbnails/polski grafika.jpg",
+  "images/thumbnails/polski_grafika.jpg": "/images/thumbnails/polski_grafika.jpg",
   "images/thumbnails/spanish_in_guliver.jpg": "/images/thumbnails/spanish_in_guliver.jpg",
   "index.html": "/index.html",
-  "js/getMeetings.js": "/js/getMeetings.js",
-  "package.json": "/package.json",
-  "precache-manifest.bac5eab8025fdebd5b63d13b439b8ae6.js": "/precache-manifest.bac5eab8025fdebd5b63d13b439b8ae6.js",
-  "styles/main.css": "/styles/main.css"
+  "precache-manifest.0920603318dc763ea6b947ff1f7e948e.js": "/precache-manifest.0920603318dc763ea6b947ff1f7e948e.js"
 }

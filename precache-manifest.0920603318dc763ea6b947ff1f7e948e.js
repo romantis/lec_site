@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/content/faq.md"
   },
   {
-    "revision": "b1b62f51c1e13c67b51818e601889c8c",
+    "revision": "e56502be1ebf605f61719bdee40fed97",
     "url": "/content/meetings.json"
   },
   {
@@ -112,43 +112,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/images/thumbnails/pierwszy_klub_polskiego.jpg"
   },
   {
-    "revision": "91602647c5e986954a81dafe76aa9a43",
-    "url": "/images/thumbnails/polski grafika.jpg"
+    "revision": "902304d70fb3f7f7d7d48684be91b499",
+    "url": "/images/thumbnails/polski_grafika.jpg"
   },
   {
     "revision": "bdc7390dcda1e9633b8b2d751d307430",
     "url": "/images/thumbnails/spanish_in_guliver.jpg"
   },
   {
-    "revision": "a43670fa5580af6f3068d99a9695dc38",
+    "revision": "0ba0d1232f2c1f65e665c62ff2af5726",
     "url": "/index.html"
   },
   {
-    "revision": "1eb15afb0c0bd0f1176536a473a21823",
-    "url": "/js/getMeetings.js"
+    "revision": "c0d8522d6f4d4b96de21",
+    "url": "/static/css/main.bf855953.chunk.css"
   },
   {
-    "revision": "6b07ca18fe4e7a731f95544693311ad1",
-    "url": "/package.json"
-  },
-  {
-    "revision": "eab062f46568777ff271",
-    "url": "/static/css/main.68ee6e45.chunk.css"
-  },
-  {
-    "revision": "eab062f46568777ff271",
-    "url": "/static/js/main.eab062f4.chunk.js"
+    "revision": "c0d8522d6f4d4b96de21",
+    "url": "/static/js/main.c0d8522d.chunk.js"
   },
   {
     "revision": "1b922744246c39b6bc43",
     "url": "/static/js/runtime~main.1b922744.js"
   },
   {
-    "revision": "3f5a6f903d480d04a926",
-    "url": "/static/js/vendors~main.3f5a6f90.chunk.js"
-  },
-  {
-    "revision": "ea528096bee338e9d1adda31b20ab3eb",
-    "url": "/styles/main.css"
+    "revision": "df94d86a41b6f6583a2e",
+    "url": "/static/js/vendors~main.df94d86a.chunk.js"
   }
 ]);
