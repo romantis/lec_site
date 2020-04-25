@@ -1,10 +1,9 @@
 module View exposing (view)
 
-import Time
 import Dict
 import Browser
 import Html exposing (..)
-import Html.Attributes exposing (class)
+import Html.Attributes exposing (class, target, href)
 import Messages exposing (Msg(..))
 import Models exposing (Model)
 import Routing exposing (Route(..), routeString)
@@ -19,7 +18,16 @@ view : Model -> Browser.Document Msg
 view model =
     { title = "LEC"
     , body =
-        [ Header.view model.route model.navItems
+        [ div [ class "ls-covid19"] 
+            [ p [] [ text "Due to COVID-19 pandemic, all live meetings are stopped."]
+            , p [] 
+                [ text "Check out our "
+                , a [ href "https://www.facebook.com/groups/82542151162/", target "_blank" ] [ text "facebook"]
+                , text " for information about online meetings."
+                ]
+            
+        ]
+        , Header.view model.route model.navItems
         , page model
         , Footer.view  model.date
         ]
