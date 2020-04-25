@@ -14,7 +14,7 @@ node_modules
 elm-stuff/
 repl-temp-*
 coverage
-dist/
+build/
 tmp
 elm.js
 npm-debug.log
