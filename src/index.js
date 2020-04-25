@@ -1,8 +1,8 @@
 import { Elm } from './elm/Main.elm';
 
-import "../public/styles/main.css";
+import "./styles/main.css";
 
-import getMeetings from '../public/js/getMeetings';
+import getMeetings from './js/getMeetings';
 
 import embededMeetings from "../public/content/meetings.json";
 
