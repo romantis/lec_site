@@ -1,8 +1,7 @@
 module Views.Header exposing (view)
 
-import Helpers.Main exposing (hrefClick)
 import Html exposing (..)
-import Html.Attributes exposing (class, classList, href, src, style, target, title)
+import Html.Attributes exposing (class, classList, href, target, title)
 import Messages exposing (Msg(..))
 import Routing exposing (Route)
 import Views.Icons exposing (fbIcon)

@@ -286,3 +286,25 @@ a:focus,
     margin-bottom: 0;
 }
 
+.ls-covid19 {
+    padding: 20px;
+    margin: 0;
+    background-color: hsl(0, 79%, 63%);
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.ls-covid19 {
+    margin: 0;
+}
+
+.ls-covid19 a {
+    color: white;
+    text-shadow: 1px 1px 1px #3d6ad6;
+    text-decoration: underline;
+}
+
+.ls-covid19 p:last-child {
+    margin-bottom: 0;
+}
