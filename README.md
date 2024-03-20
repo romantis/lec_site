@@ -1,12 +1,11 @@
 # Front End for Language Exchange Club
 
 ## Prerequisites
-* [Node 10](https://nodejs.org/en/) or greater.
-* [create-elm-app](https://github.com/halfzebra/create-elm-app#getting-started).
+* [Node 20](https://nodejs.org/en/) or greater.
 
 ## Installation
 ```bash
- git https://github.com/romantis/lec_site.git
+ git clone https://github.com/romantis/lec_site.git
  cd lec_site
  npm install
 ```

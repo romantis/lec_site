@@ -15,6 +15,7 @@ elm-stuff/
 repl-temp-*
 coverage
 build/
+dist/
 tmp
 elm.js
 npm-debug.log
@@ -34,3 +35,6 @@ tags
 
 ### VisualStudioCode ###
 .vscode/*
+
+# Parcel
+.parcel-cache
