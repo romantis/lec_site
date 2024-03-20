@@ -7,7 +7,7 @@ import getMeetings from './js/getMeetings';
 import embededMeetings from "../public/content/meetings.json";
 
 const MEETINGS_URL = 
-    'https://us-central1-lecsite-185112.cloudfunctions.net/lecmeetings';
+    'https://europe-west3-lecsite-185112.cloudfunctions.net/lecmeetings-go';
     
 
 const app = Elm.Main.init(document.getElementById('app'));
