@@ -11,7 +11,7 @@ import Views.Footer as Footer
 import Views.Header as Header
 import Views.HomePage as Home
 import Views.MDPage as MDPage
-import Views.NotFound as NotFound
+import Views.Notfound as Notfound
 
 
 view : Model -> Browser.Document Msg
@@ -44,4 +44,4 @@ page model =
             MDPage.view (Maybe.withDefault "" (Dict.get (routeString model.route) model.content))
 
         NotFoundRoute ->
-            NotFound.view
+            Notfound.view
